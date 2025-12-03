@@ -1,0 +1,226 @@
+/* A CSS FILE FOR SCREEN SIZE BELOW 640PX */
+
+
+@media(max-width:680px) {
+#logos-section div img{
+    height: 14%;
+    width: 14%;
+}
+#logos-section div {
+    padding: 17px;
+    margin-left: 5px;
+    align-items: center;
+}
+#main-tag {
+    height: 100vh;
+    width: 100%;
+}
+h1 {
+    font-size: 45px;
+}
+#main-tag-div {
+    width: 100% ;
+    margin-left: 0px;
+}
+#main-heading-div{
+        margin-left: 90px;
+        margin-bottom: 30px;
+}
+#humburger {
+    display: block;
+    cursor: pointer;
+}
+#nav-links{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 35px;
+    background-color: #fff;
+    width: 50%;
+    box-shadow: 3px 3px 5px #000;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+#nav-links.active {
+    display: flex;
+}
+}
+
+
+@media(max-width:640px) {
+    .footer-heading {
+        font-size: 35px;
+    }
+    .payme-sec {
+        text-align: center;
+        padding: 30px;
+    }
+    .div {
+        margin-left: 30px;
+        padding: 10px;
+    }
+    .div li {
+        list-style-type: circle;
+    }
+    #section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#faq-sec {
+    width: 80%;
+}
+.p1{
+    font-size: 13px;
+}
+.p2 {
+    font-size: 10px;
+}
+#price-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.img {
+    height: 100%;
+}
+#client-heading {
+    font-size: 12.5px;
+}
+#client-text {
+    font-size: 7.5px;
+}
+.client-star {
+    font-size: 6px;
+}
+.heading {
+    font-size: 24px;
+}
+.heading-para {
+    font-size: 14px;
+}
+#first-para {
+    font-size: 8px;
+}#second-para {
+    font-size: 7px;
+}
+}
+
+
+@media(max-width:550px) {
+    .footer-heading {
+        font-size: 30px;
+    }
+#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#services-section div{
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 10px;
+}
+#logos-section div img{
+    height: 12.5%;
+    width: 12.5%;
+}
+#logos-section div {
+    padding: 10px;
+    margin-left: 5px;
+    align-items: center;
+}
+#main-tag {
+    height: 100vh;
+    width: 100%;
+}
+h1 {
+    font-size: 41px;
+}
+#main-tag-div {
+    width: 100% ;
+    margin-left: 0px;
+}
+#main-heading-div{
+    margin-left: 35px;
+}
+}
+
+
+@media(max-width:444px) {
+    .footer-heading {
+        font-size: 24px;
+    }
+#faq-sec {
+    width: 80%;
+}
+.p1{
+    font-size: 11px;
+}
+.p2 {
+    font-size: 8px;
+}
+#price-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.img {
+    height: 100%;
+}
+#client-heading {
+    font-size: 10px;
+}
+#client-text {
+    font-size: 6.5px;
+}
+.client-star {
+    font-size: 5px;
+}
+#first-para {
+    font-size: 7px;
+}#second-para {
+    font-size: 6px;
+}
+#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#services-section div{
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 10px;
+}
+.heading {
+    font-size: 20px;
+}
+.heading-para {
+    font-size: 10px;
+}
+#logos-section div img{
+    height: 10%;
+    width: 10%;
+}
+#logos-section div {
+    padding: 8px;
+    margin-left: 5px;
+    align-items: center;
+}
+#main-tag {
+    height: 80vh;
+    width: 100%;
+}
+h1 {
+    font-size: 35px;
+}
+#main-tag-div {
+    width: 100% ;
+    margin-left: 0px;
+}
+#main-heading-div{
+    margin-left: 35px;
+}
+}

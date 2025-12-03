@@ -1,0 +1,56 @@
+#first-div-image{
+    background-image: url(../assests/first-pic-div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#second-div-image {
+    background-image: url(../assests/second-pic-div\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#third-div-image {
+    background-image: url(../assests/third-pic-div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fourth-div-image {
+    background-image: url(../assests/fourth-picc-div.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#humburger{
+    display: none;
+}
+#nav-links li a {
+    transform: translateY(0px);
+    transition: all 0.7s ease;
+}
+#nav-links li a:hover  {
+    transform: translateY(-8px);
+    font-size: 15px;
+}
+button{
+    transition: all 1s ease ;
+}
+button:hover {
+    transition: all 1s ease ;
+}
+#feature-div1 , #feature-div2 , #feature-div3 , #feature-div4 {
+    transition: transform 1s ease;
+}
+#feature-div1:hover , #feature-div2:hover , #feature-div3:hover , #feature-div4:hover {
+    transform: translateY(-6px);
+}
+#feature-div1:hover h3 , #feature-div1:hover a {
+    color: #25A4AD;
+}
+#feature-div2:hover h3 , #feature-div2:hover a {
+    color: #25A4AD;
+}
+#feature-div3:hover h3 , #feature-div3:hover a {
+    color: #25A4AD;
+}
+#feature-div4:hover h3 , #feature-div4:hover a {
+    color: #25A4AD;
+}
